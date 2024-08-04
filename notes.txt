@@ -1,0 +1,7 @@
+1. Instalamos VITE: npm install vite --save-dev
+2. Creamos el proyecto de VITE: npm create vite@latest nombreArchivo
+3. Seleccionamos Vanilla y TypeScript
+4. Iniciamos el respositorio con git: git init 
+5. Añadimos repo remoto: git remote add origin linkRepo
+6. Ejecutamos con NPM RUN DEV para que se despliegue en localhost
+ 
