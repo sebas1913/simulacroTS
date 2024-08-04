@@ -1,3 +1,4 @@
+import { ICity } from "../models/ICity";
 import { Card } from "./card";
 import { CitiesController } from "./cities.controller";
 
@@ -24,8 +25,8 @@ async function showCities() {
     const citiesController = new CitiesController(url);
     const cities = await citiesController.getCities('cities');
     
-    cities.forEach(city => {
-        cardSection?.append(Card(city))
+    cities.forEach((city: ICity) => {
+        cardSection?.append(Card(city));
     });
 }
 
